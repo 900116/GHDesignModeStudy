@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70A173D242A15DE00950908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A173C242A15DE00950908 /* AppDelegate.m */; };
+		D70A1740242A15DE00950908 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A173F242A15DE00950908 /* SceneDelegate.m */; };
+		D70A1743242A15DE00950908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1742242A15DE00950908 /* ViewController.m */; };
+		D70A1746242A15DE00950908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70A1744242A15DE00950908 /* Main.storyboard */; };
+		D70A1748242A15DF00950908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70A1747242A15DF00950908 /* Assets.xcassets */; };
+		D70A174B242A15E000950908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70A1749242A15E000950908 /* LaunchScreen.storyboard */; };
+		D70A174E242A15E000950908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A174D242A15E000950908 /* main.m */; };
+		D70A1758242A15E100950908 /* GHDesignModeStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1757242A15E100950908 /* GHDesignModeStudyTests.m */; };
+		D70A1763242A15E100950908 /* GHDesignModeStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1762242A15E100950908 /* GHDesignModeStudyUITests.m */; };
+		D70A1773242A161100950908 /* GHFactoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1772242A161100950908 /* GHFactoryModel.m */; };
+		D70A1776242A162200950908 /* GHAbstractFactoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1775242A162200950908 /* GHAbstractFactoryModel.m */; };
+		D70A1779242A162F00950908 /* GHBuilderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1778242A162F00950908 /* GHBuilderModel.m */; };
+		D70A177C242A163A00950908 /* GHSingletonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A177B242A163A00950908 /* GHSingletonModel.m */; };
+		D70A1780242A166B00950908 /* GHAdapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A177F242A166B00950908 /* GHAdapterModel.m */; };
+		D70A1786242A169E00950908 /* GHBridgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1785242A169E00950908 /* GHBridgeModel.m */; };
+		D70A1789242A16B900950908 /* GHFacadeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1788242A16B900950908 /* GHFacadeModel.m */; };
+		D70A178C242A16D800950908 /* GHProtoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A178B242A16D800950908 /* GHProtoModel.m */; };
+		D70A178F242A172100950908 /* GHFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A178E242A172100950908 /* GHFilterModel.m */; };
+		D70A1792242A172F00950908 /* GHComposeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1791242A172F00950908 /* GHComposeModel.m */; };
+		D70A1795242A173A00950908 /* GHDecoratorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1794242A173A00950908 /* GHDecoratorModel.m */; };
+		D70A1798242A174A00950908 /* GHProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A1797242A174A00950908 /* GHProxyModel.m */; };
+		D70A179B242A175800950908 /* GHFlyweightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A179A242A175800950908 /* GHFlyweightModel.m */; };
+		D70A179F242A177600950908 /* GHResponChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A179E242A177600950908 /* GHResponChainModel.m */; };
+		D70A17A2242A178100950908 /* GHCommandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17A1242A178100950908 /* GHCommandModel.m */; };
+		D70A17A5242A178E00950908 /* GHInterpreterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17A4242A178E00950908 /* GHInterpreterModel.m */; };
+		D70A17A8242A179900950908 /* GHIteratorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17A7242A179900950908 /* GHIteratorModel.m */; };
+		D70A17AB242A17A600950908 /* GHMediatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17AA242A17A600950908 /* GHMediatorModel.m */; };
+		D70A17AE242A17B100950908 /* GHMementoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17AD242A17B100950908 /* GHMementoModel.m */; };
+		D70A17B1242A17BA00950908 /* GHObserverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17B0242A17BA00950908 /* GHObserverModel.m */; };
+		D70A17B7242A17D000950908 /* GHStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17B6242A17D000950908 /* GHStateModel.m */; };
+		D70A17BA242A17DE00950908 /* GHNullObjModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17B9242A17DE00950908 /* GHNullObjModel.m */; };
+		D70A17BD242A17EC00950908 /* GHStrategyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17BC242A17EC00950908 /* GHStrategyModel.m */; };
+		D70A17C0242A17F400950908 /* GHTemplateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17BF242A17F400950908 /* GHTemplateModel.m */; };
+		D70A17C3242A180500950908 /* GHVisitorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17C2242A180500950908 /* GHVisitorModel.m */; };
+		D70A17C8242A182600950908 /* GHMVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17C7242A182600950908 /* GHMVCModel.m */; };
+		D70A17CE242A184700950908 /* GHBusinessDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17CD242A184700950908 /* GHBusinessDelegateModel.m */; };
+		D70A17D1242A185700950908 /* GHComposeEntityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17D0242A185700950908 /* GHComposeEntityModel.m */; };
+		D70A17D4242A186800950908 /* GHDataAccessObjModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17D3242A186800950908 /* GHDataAccessObjModel.m */; };
+		D70A17D7242A187B00950908 /* GHFrontControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17D6242A187B00950908 /* GHFrontControllerModel.m */; };
+		D70A17DA242A188A00950908 /* GHInterceptingFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17D9242A188A00950908 /* GHInterceptingFilterModel.m */; };
+		D70A17DD242A189900950908 /* GHServiceLocatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17DC242A189900950908 /* GHServiceLocatorModel.m */; };
+		D70A17E0242A18AA00950908 /* GHTransferObjModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70A17DF242A18AA00950908 /* GHTransferObjModel.m */; };
+		D70A17E3242A190200950908 /* baseIntro.md in Resources */ = {isa = PBXBuildFile; fileRef = D70A17E2242A190200950908 /* baseIntro.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D70A1754242A15E100950908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70A1730242A15DE00950908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70A1737242A15DE00950908;
+			remoteInfo = GHDesignModeStudy;
+		};
+		D70A175F242A15E100950908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70A1730242A15DE00950908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70A1737242A15DE00950908;
+			remoteInfo = GHDesignModeStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D70A1738242A15DE00950908 /* GHDesignModeStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHDesignModeStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70A173B242A15DE00950908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D70A173C242A15DE00950908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D70A173E242A15DE00950908 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D70A173F242A15DE00950908 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D70A1741242A15DE00950908 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D70A1742242A15DE00950908 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D70A1745242A15DE00950908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D70A1747242A15DF00950908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D70A174A242A15E000950908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D70A174C242A15E000950908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70A174D242A15E000950908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D70A1753242A15E100950908 /* GHDesignModeStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHDesignModeStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70A1757242A15E100950908 /* GHDesignModeStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDesignModeStudyTests.m; sourceTree = "<group>"; };
+		D70A1759242A15E100950908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70A175E242A15E100950908 /* GHDesignModeStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHDesignModeStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70A1762242A15E100950908 /* GHDesignModeStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDesignModeStudyUITests.m; sourceTree = "<group>"; };
+		D70A1764242A15E100950908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70A1771242A161100950908 /* GHFactoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHFactoryModel.h; sourceTree = "<group>"; };
+		D70A1772242A161100950908 /* GHFactoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHFactoryModel.m; sourceTree = "<group>"; };
+		D70A1774242A162200950908 /* GHAbstractFactoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAbstractFactoryModel.h; sourceTree = "<group>"; wrapsLines = 0; };
+		D70A1775242A162200950908 /* GHAbstractFactoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAbstractFactoryModel.m; sourceTree = "<group>"; };
+		D70A1777242A162F00950908 /* GHBuilderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBuilderModel.h; sourceTree = "<group>"; };
+		D70A1778242A162F00950908 /* GHBuilderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBuilderModel.m; sourceTree = "<group>"; };
+		D70A177A242A163A00950908 /* GHSingletonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHSingletonModel.h; sourceTree = "<group>"; };
+		D70A177B242A163A00950908 /* GHSingletonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHSingletonModel.m; sourceTree = "<group>"; };
+		D70A177E242A166B00950908 /* GHAdapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAdapterModel.h; sourceTree = "<group>"; };
+		D70A177F242A166B00950908 /* GHAdapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAdapterModel.m; sourceTree = "<group>"; };
+		D70A1784242A169D00950908 /* GHBridgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBridgeModel.h; sourceTree = "<group>"; };
+		D70A1785242A169E00950908 /* GHBridgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBridgeModel.m; sourceTree = "<group>"; };
+		D70A1787242A16B900950908 /* GHFacadeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHFacadeModel.h; sourceTree = "<group>"; };
+		D70A1788242A16B900950908 /* GHFacadeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHFacadeModel.m; sourceTree = "<group>"; };
+		D70A178A242A16D800950908 /* GHProtoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHProtoModel.h; sourceTree = "<group>"; };
+		D70A178B242A16D800950908 /* GHProtoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHProtoModel.m; sourceTree = "<group>"; };
+		D70A178D242A172100950908 /* GHFilterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHFilterModel.h; sourceTree = "<group>"; };
+		D70A178E242A172100950908 /* GHFilterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHFilterModel.m; sourceTree = "<group>"; };
+		D70A1790242A172F00950908 /* GHComposeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHComposeModel.h; sourceTree = "<group>"; };
+		D70A1791242A172F00950908 /* GHComposeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHComposeModel.m; sourceTree = "<group>"; };
+		D70A1793242A173A00950908 /* GHDecoratorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHDecoratorModel.h; sourceTree = "<group>"; };
+		D70A1794242A173A00950908 /* GHDecoratorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDecoratorModel.m; sourceTree = "<group>"; };
+		D70A1796242A174A00950908 /* GHProxyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHProxyModel.h; sourceTree = "<group>"; };
+		D70A1797242A174A00950908 /* GHProxyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHProxyModel.m; sourceTree = "<group>"; };
+		D70A1799242A175800950908 /* GHFlyweightModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHFlyweightModel.h; sourceTree = "<group>"; };
+		D70A179A242A175800950908 /* GHFlyweightModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHFlyweightModel.m; sourceTree = "<group>"; };
+		D70A179D242A177600950908 /* GHResponChainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHResponChainModel.h; sourceTree = "<group>"; };
+		D70A179E242A177600950908 /* GHResponChainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHResponChainModel.m; sourceTree = "<group>"; };
+		D70A17A0242A178100950908 /* GHCommandModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCommandModel.h; sourceTree = "<group>"; };
+		D70A17A1242A178100950908 /* GHCommandModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCommandModel.m; sourceTree = "<group>"; };
+		D70A17A3242A178E00950908 /* GHInterpreterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHInterpreterModel.h; sourceTree = "<group>"; };
+		D70A17A4242A178E00950908 /* GHInterpreterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHInterpreterModel.m; sourceTree = "<group>"; };
+		D70A17A6242A179900950908 /* GHIteratorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHIteratorModel.h; sourceTree = "<group>"; };
+		D70A17A7242A179900950908 /* GHIteratorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHIteratorModel.m; sourceTree = "<group>"; };
+		D70A17A9242A17A600950908 /* GHMediatorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMediatorModel.h; sourceTree = "<group>"; };
+		D70A17AA242A17A600950908 /* GHMediatorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMediatorModel.m; sourceTree = "<group>"; };
+		D70A17AC242A17B100950908 /* GHMementoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMementoModel.h; sourceTree = "<group>"; };
+		D70A17AD242A17B100950908 /* GHMementoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMementoModel.m; sourceTree = "<group>"; };
+		D70A17AF242A17BA00950908 /* GHObserverModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHObserverModel.h; sourceTree = "<group>"; };
+		D70A17B0242A17BA00950908 /* GHObserverModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHObserverModel.m; sourceTree = "<group>"; };
+		D70A17B5242A17D000950908 /* GHStateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHStateModel.h; sourceTree = "<group>"; };
+		D70A17B6242A17D000950908 /* GHStateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHStateModel.m; sourceTree = "<group>"; };
+		D70A17B8242A17DE00950908 /* GHNullObjModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHNullObjModel.h; sourceTree = "<group>"; };
+		D70A17B9242A17DE00950908 /* GHNullObjModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHNullObjModel.m; sourceTree = "<group>"; };
+		D70A17BB242A17EC00950908 /* GHStrategyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHStrategyModel.h; sourceTree = "<group>"; };
+		D70A17BC242A17EC00950908 /* GHStrategyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHStrategyModel.m; sourceTree = "<group>"; };
+		D70A17BE242A17F400950908 /* GHTemplateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHTemplateModel.h; sourceTree = "<group>"; };
+		D70A17BF242A17F400950908 /* GHTemplateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHTemplateModel.m; sourceTree = "<group>"; };
+		D70A17C1242A180500950908 /* GHVisitorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHVisitorModel.h; sourceTree = "<group>"; };
+		D70A17C2242A180500950908 /* GHVisitorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHVisitorModel.m; sourceTree = "<group>"; };
+		D70A17C6242A182600950908 /* GHMVCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMVCModel.h; sourceTree = "<group>"; };
+		D70A17C7242A182600950908 /* GHMVCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMVCModel.m; sourceTree = "<group>"; };
+		D70A17CC242A184700950908 /* GHBusinessDelegateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHBusinessDelegateModel.h; sourceTree = "<group>"; };
+		D70A17CD242A184700950908 /* GHBusinessDelegateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHBusinessDelegateModel.m; sourceTree = "<group>"; };
+		D70A17CF242A185700950908 /* GHComposeEntityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHComposeEntityModel.h; sourceTree = "<group>"; };
+		D70A17D0242A185700950908 /* GHComposeEntityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHComposeEntityModel.m; sourceTree = "<group>"; };
+		D70A17D2242A186800950908 /* GHDataAccessObjModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHDataAccessObjModel.h; sourceTree = "<group>"; };
+		D70A17D3242A186800950908 /* GHDataAccessObjModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDataAccessObjModel.m; sourceTree = "<group>"; };
+		D70A17D5242A187B00950908 /* GHFrontControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHFrontControllerModel.h; sourceTree = "<group>"; };
+		D70A17D6242A187B00950908 /* GHFrontControllerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHFrontControllerModel.m; sourceTree = "<group>"; };
+		D70A17D8242A188A00950908 /* GHInterceptingFilterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHInterceptingFilterModel.h; sourceTree = "<group>"; };
+		D70A17D9242A188A00950908 /* GHInterceptingFilterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHInterceptingFilterModel.m; sourceTree = "<group>"; };
+		D70A17DB242A189900950908 /* GHServiceLocatorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHServiceLocatorModel.h; sourceTree = "<group>"; };
+		D70A17DC242A189900950908 /* GHServiceLocatorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHServiceLocatorModel.m; sourceTree = "<group>"; };
+		D70A17DE242A18AA00950908 /* GHTransferObjModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHTransferObjModel.h; sourceTree = "<group>"; };
+		D70A17DF242A18AA00950908 /* GHTransferObjModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHTransferObjModel.m; sourceTree = "<group>"; };
+		D70A17E2242A190200950908 /* baseIntro.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = baseIntro.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70A1735242A15DE00950908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70A1750242A15E100950908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70A175B242A15E100950908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D70A172F242A15DE00950908 = {
+			isa = PBXGroup;
+			children = (
+				D70A173A242A15DE00950908 /* GHDesignModeStudy */,
+				D70A1756242A15E100950908 /* GHDesignModeStudyTests */,
+				D70A1761242A15E100950908 /* GHDesignModeStudyUITests */,
+				D70A1739242A15DE00950908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D70A1739242A15DE00950908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70A1738242A15DE00950908 /* GHDesignModeStudy.app */,
+				D70A1753242A15E100950908 /* GHDesignModeStudyTests.xctest */,
+				D70A175E242A15E100950908 /* GHDesignModeStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70A173A242A15DE00950908 /* GHDesignModeStudy */ = {
+			isa = PBXGroup;
+			children = (
+				D70A17E1242A18D000950908 /* base */,
+				D70A17C5242A181200950908 /* client */,
+				D70A179C242A176000950908 /* action */,
+				D70A177D242A164A00950908 /* struct */,
+				D70A1770242A15F200950908 /* create */,
+				D70A173B242A15DE00950908 /* AppDelegate.h */,
+				D70A173C242A15DE00950908 /* AppDelegate.m */,
+				D70A173E242A15DE00950908 /* SceneDelegate.h */,
+				D70A173F242A15DE00950908 /* SceneDelegate.m */,
+				D70A1741242A15DE00950908 /* ViewController.h */,
+				D70A1742242A15DE00950908 /* ViewController.m */,
+				D70A1744242A15DE00950908 /* Main.storyboard */,
+				D70A1747242A15DF00950908 /* Assets.xcassets */,
+				D70A1749242A15E000950908 /* LaunchScreen.storyboard */,
+				D70A174C242A15E000950908 /* Info.plist */,
+				D70A174D242A15E000950908 /* main.m */,
+			);
+			path = GHDesignModeStudy;
+			sourceTree = "<group>";
+		};
+		D70A1756242A15E100950908 /* GHDesignModeStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D70A1757242A15E100950908 /* GHDesignModeStudyTests.m */,
+				D70A1759242A15E100950908 /* Info.plist */,
+			);
+			path = GHDesignModeStudyTests;
+			sourceTree = "<group>";
+		};
+		D70A1761242A15E100950908 /* GHDesignModeStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D70A1762242A15E100950908 /* GHDesignModeStudyUITests.m */,
+				D70A1764242A15E100950908 /* Info.plist */,
+			);
+			path = GHDesignModeStudyUITests;
+			sourceTree = "<group>";
+		};
+		D70A1770242A15F200950908 /* create */ = {
+			isa = PBXGroup;
+			children = (
+				D70A1771242A161100950908 /* GHFactoryModel.h */,
+				D70A1772242A161100950908 /* GHFactoryModel.m */,
+				D70A1774242A162200950908 /* GHAbstractFactoryModel.h */,
+				D70A1775242A162200950908 /* GHAbstractFactoryModel.m */,
+				D70A177A242A163A00950908 /* GHSingletonModel.h */,
+				D70A177B242A163A00950908 /* GHSingletonModel.m */,
+				D70A1777242A162F00950908 /* GHBuilderModel.h */,
+				D70A1778242A162F00950908 /* GHBuilderModel.m */,
+				D70A178A242A16D800950908 /* GHProtoModel.h */,
+				D70A178B242A16D800950908 /* GHProtoModel.m */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		D70A177D242A164A00950908 /* struct */ = {
+			isa = PBXGroup;
+			children = (
+				D70A177E242A166B00950908 /* GHAdapterModel.h */,
+				D70A177F242A166B00950908 /* GHAdapterModel.m */,
+				D70A1784242A169D00950908 /* GHBridgeModel.h */,
+				D70A1785242A169E00950908 /* GHBridgeModel.m */,
+				D70A178D242A172100950908 /* GHFilterModel.h */,
+				D70A178E242A172100950908 /* GHFilterModel.m */,
+				D70A1790242A172F00950908 /* GHComposeModel.h */,
+				D70A1791242A172F00950908 /* GHComposeModel.m */,
+				D70A1793242A173A00950908 /* GHDecoratorModel.h */,
+				D70A1794242A173A00950908 /* GHDecoratorModel.m */,
+				D70A1787242A16B900950908 /* GHFacadeModel.h */,
+				D70A1788242A16B900950908 /* GHFacadeModel.m */,
+				D70A1799242A175800950908 /* GHFlyweightModel.h */,
+				D70A179A242A175800950908 /* GHFlyweightModel.m */,
+				D70A1796242A174A00950908 /* GHProxyModel.h */,
+				D70A1797242A174A00950908 /* GHProxyModel.m */,
+			);
+			path = struct;
+			sourceTree = "<group>";
+		};
+		D70A179C242A176000950908 /* action */ = {
+			isa = PBXGroup;
+			children = (
+				D70A179D242A177600950908 /* GHResponChainModel.h */,
+				D70A179E242A177600950908 /* GHResponChainModel.m */,
+				D70A17A0242A178100950908 /* GHCommandModel.h */,
+				D70A17A1242A178100950908 /* GHCommandModel.m */,
+				D70A17A3242A178E00950908 /* GHInterpreterModel.h */,
+				D70A17A4242A178E00950908 /* GHInterpreterModel.m */,
+				D70A17A6242A179900950908 /* GHIteratorModel.h */,
+				D70A17A7242A179900950908 /* GHIteratorModel.m */,
+				D70A17A9242A17A600950908 /* GHMediatorModel.h */,
+				D70A17AA242A17A600950908 /* GHMediatorModel.m */,
+				D70A17AC242A17B100950908 /* GHMementoModel.h */,
+				D70A17AD242A17B100950908 /* GHMementoModel.m */,
+				D70A17AF242A17BA00950908 /* GHObserverModel.h */,
+				D70A17B0242A17BA00950908 /* GHObserverModel.m */,
+				D70A17B5242A17D000950908 /* GHStateModel.h */,
+				D70A17B6242A17D000950908 /* GHStateModel.m */,
+				D70A17B8242A17DE00950908 /* GHNullObjModel.h */,
+				D70A17B9242A17DE00950908 /* GHNullObjModel.m */,
+				D70A17BB242A17EC00950908 /* GHStrategyModel.h */,
+				D70A17BC242A17EC00950908 /* GHStrategyModel.m */,
+				D70A17BE242A17F400950908 /* GHTemplateModel.h */,
+				D70A17BF242A17F400950908 /* GHTemplateModel.m */,
+				D70A17C1242A180500950908 /* GHVisitorModel.h */,
+				D70A17C2242A180500950908 /* GHVisitorModel.m */,
+			);
+			path = action;
+			sourceTree = "<group>";
+		};
+		D70A17C5242A181200950908 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				D70A17C6242A182600950908 /* GHMVCModel.h */,
+				D70A17C7242A182600950908 /* GHMVCModel.m */,
+				D70A17CC242A184700950908 /* GHBusinessDelegateModel.h */,
+				D70A17CD242A184700950908 /* GHBusinessDelegateModel.m */,
+				D70A17CF242A185700950908 /* GHComposeEntityModel.h */,
+				D70A17D0242A185700950908 /* GHComposeEntityModel.m */,
+				D70A17D2242A186800950908 /* GHDataAccessObjModel.h */,
+				D70A17D3242A186800950908 /* GHDataAccessObjModel.m */,
+				D70A17D5242A187B00950908 /* GHFrontControllerModel.h */,
+				D70A17D6242A187B00950908 /* GHFrontControllerModel.m */,
+				D70A17D8242A188A00950908 /* GHInterceptingFilterModel.h */,
+				D70A17D9242A188A00950908 /* GHInterceptingFilterModel.m */,
+				D70A17DB242A189900950908 /* GHServiceLocatorModel.h */,
+				D70A17DC242A189900950908 /* GHServiceLocatorModel.m */,
+				D70A17DE242A18AA00950908 /* GHTransferObjModel.h */,
+				D70A17DF242A18AA00950908 /* GHTransferObjModel.m */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		D70A17E1242A18D000950908 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				D70A17E2242A190200950908 /* baseIntro.md */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70A1737242A15DE00950908 /* GHDesignModeStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70A1767242A15E100950908 /* Build configuration list for PBXNativeTarget "GHDesignModeStudy" */;
+			buildPhases = (
+				D70A1734242A15DE00950908 /* Sources */,
+				D70A1735242A15DE00950908 /* Frameworks */,
+				D70A1736242A15DE00950908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHDesignModeStudy;
+			productName = GHDesignModeStudy;
+			productReference = D70A1738242A15DE00950908 /* GHDesignModeStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70A1752242A15E100950908 /* GHDesignModeStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70A176A242A15E100950908 /* Build configuration list for PBXNativeTarget "GHDesignModeStudyTests" */;
+			buildPhases = (
+				D70A174F242A15E100950908 /* Sources */,
+				D70A1750242A15E100950908 /* Frameworks */,
+				D70A1751242A15E100950908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70A1755242A15E100950908 /* PBXTargetDependency */,
+			);
+			name = GHDesignModeStudyTests;
+			productName = GHDesignModeStudyTests;
+			productReference = D70A1753242A15E100950908 /* GHDesignModeStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D70A175D242A15E100950908 /* GHDesignModeStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70A176D242A15E100950908 /* Build configuration list for PBXNativeTarget "GHDesignModeStudyUITests" */;
+			buildPhases = (
+				D70A175A242A15E100950908 /* Sources */,
+				D70A175B242A15E100950908 /* Frameworks */,
+				D70A175C242A15E100950908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70A1760242A15E100950908 /* PBXTargetDependency */,
+			);
+			name = GHDesignModeStudyUITests;
+			productName = GHDesignModeStudyUITests;
+			productReference = D70A175E242A15E100950908 /* GHDesignModeStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70A1730242A15DE00950908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "GuangHui Zhao";
+				TargetAttributes = {
+					D70A1737242A15DE00950908 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D70A1752242A15E100950908 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D70A1737242A15DE00950908;
+					};
+					D70A175D242A15E100950908 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D70A1737242A15DE00950908;
+					};
+				};
+			};
+			buildConfigurationList = D70A1733242A15DE00950908 /* Build configuration list for PBXProject "GHDesignModeStudy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D70A172F242A15DE00950908;
+			productRefGroup = D70A1739242A15DE00950908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70A1737242A15DE00950908 /* GHDesignModeStudy */,
+				D70A1752242A15E100950908 /* GHDesignModeStudyTests */,
+				D70A175D242A15E100950908 /* GHDesignModeStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D70A1736242A15DE00950908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70A174B242A15E000950908 /* LaunchScreen.storyboard in Resources */,
+				D70A1748242A15DF00950908 /* Assets.xcassets in Resources */,
+				D70A17E3242A190200950908 /* baseIntro.md in Resources */,
+				D70A1746242A15DE00950908 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70A1751242A15E100950908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70A175C242A15E100950908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70A1734242A15DE00950908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70A177C242A163A00950908 /* GHSingletonModel.m in Sources */,
+				D70A17C3242A180500950908 /* GHVisitorModel.m in Sources */,
+				D70A17BA242A17DE00950908 /* GHNullObjModel.m in Sources */,
+				D70A17CE242A184700950908 /* GHBusinessDelegateModel.m in Sources */,
+				D70A17D1242A185700950908 /* GHComposeEntityModel.m in Sources */,
+				D70A17AE242A17B100950908 /* GHMementoModel.m in Sources */,
+				D70A178C242A16D800950908 /* GHProtoModel.m in Sources */,
+				D70A17DD242A189900950908 /* GHServiceLocatorModel.m in Sources */,
+				D70A17A2242A178100950908 /* GHCommandModel.m in Sources */,
+				D70A17D7242A187B00950908 /* GHFrontControllerModel.m in Sources */,
+				D70A17A5242A178E00950908 /* GHInterpreterModel.m in Sources */,
+				D70A1743242A15DE00950908 /* ViewController.m in Sources */,
+				D70A17AB242A17A600950908 /* GHMediatorModel.m in Sources */,
+				D70A1779242A162F00950908 /* GHBuilderModel.m in Sources */,
+				D70A1776242A162200950908 /* GHAbstractFactoryModel.m in Sources */,
+				D70A178F242A172100950908 /* GHFilterModel.m in Sources */,
+				D70A173D242A15DE00950908 /* AppDelegate.m in Sources */,
+				D70A1780242A166B00950908 /* GHAdapterModel.m in Sources */,
+				D70A17B1242A17BA00950908 /* GHObserverModel.m in Sources */,
+				D70A1773242A161100950908 /* GHFactoryModel.m in Sources */,
+				D70A17DA242A188A00950908 /* GHInterceptingFilterModel.m in Sources */,
+				D70A179F242A177600950908 /* GHResponChainModel.m in Sources */,
+				D70A1789242A16B900950908 /* GHFacadeModel.m in Sources */,
+				D70A1795242A173A00950908 /* GHDecoratorModel.m in Sources */,
+				D70A17BD242A17EC00950908 /* GHStrategyModel.m in Sources */,
+				D70A1798242A174A00950908 /* GHProxyModel.m in Sources */,
+				D70A17E0242A18AA00950908 /* GHTransferObjModel.m in Sources */,
+				D70A17B7242A17D000950908 /* GHStateModel.m in Sources */,
+				D70A174E242A15E000950908 /* main.m in Sources */,
+				D70A1792242A172F00950908 /* GHComposeModel.m in Sources */,
+				D70A1740242A15DE00950908 /* SceneDelegate.m in Sources */,
+				D70A17C8242A182600950908 /* GHMVCModel.m in Sources */,
+				D70A17C0242A17F400950908 /* GHTemplateModel.m in Sources */,
+				D70A1786242A169E00950908 /* GHBridgeModel.m in Sources */,
+				D70A179B242A175800950908 /* GHFlyweightModel.m in Sources */,
+				D70A17D4242A186800950908 /* GHDataAccessObjModel.m in Sources */,
+				D70A17A8242A179900950908 /* GHIteratorModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70A174F242A15E100950908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70A1758242A15E100950908 /* GHDesignModeStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70A175A242A15E100950908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70A1763242A15E100950908 /* GHDesignModeStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D70A1755242A15E100950908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70A1737242A15DE00950908 /* GHDesignModeStudy */;
+			targetProxy = D70A1754242A15E100950908 /* PBXContainerItemProxy */;
+		};
+		D70A1760242A15E100950908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70A1737242A15DE00950908 /* GHDesignModeStudy */;
+			targetProxy = D70A175F242A15E100950908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D70A1744242A15DE00950908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70A1745242A15DE00950908 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D70A1749242A15E000950908 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70A174A242A15E000950908 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D70A1765242A15E100950908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D70A1766242A15E100950908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D70A1768242A15E100950908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDesignModeStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApesStudioMan.GHDesignModeStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D70A1769242A15E100950908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDesignModeStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApesStudioMan.GHDesignModeStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D70A176B242A15E100950908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDesignModeStudyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApesStudioMan.GHDesignModeStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHDesignModeStudy.app/GHDesignModeStudy";
+			};
+			name = Debug;
+		};
+		D70A176C242A15E100950908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDesignModeStudyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApesStudioMan.GHDesignModeStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHDesignModeStudy.app/GHDesignModeStudy";
+			};
+			name = Release;
+		};
+		D70A176E242A15E100950908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDesignModeStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApesStudioMan.GHDesignModeStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GHDesignModeStudy;
+			};
+			name = Debug;
+		};
+		D70A176F242A15E100950908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GHDesignModeStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApesStudioMan.GHDesignModeStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GHDesignModeStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70A1733242A15DE00950908 /* Build configuration list for PBXProject "GHDesignModeStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70A1765242A15E100950908 /* Debug */,
+				D70A1766242A15E100950908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70A1767242A15E100950908 /* Build configuration list for PBXNativeTarget "GHDesignModeStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70A1768242A15E100950908 /* Debug */,
+				D70A1769242A15E100950908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70A176A242A15E100950908 /* Build configuration list for PBXNativeTarget "GHDesignModeStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70A176B242A15E100950908 /* Debug */,
+				D70A176C242A15E100950908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70A176D242A15E100950908 /* Build configuration list for PBXNativeTarget "GHDesignModeStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70A176E242A15E100950908 /* Debug */,
+				D70A176F242A15E100950908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D70A1730242A15DE00950908 /* Project object */;
+}
